@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C775ACAD1D005C1700D22012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C775ACAC1D005C1700D22012 /* AppDelegate.swift */; };
+		C775ACAF1D005C1700D22012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C775ACAE1D005C1700D22012 /* ViewController.swift */; };
+		C775ACB21D005C1700D22012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C775ACB01D005C1700D22012 /* Main.storyboard */; };
+		C775ACB41D005C1700D22012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C775ACB31D005C1700D22012 /* Assets.xcassets */; };
+		C775ACB71D005C1700D22012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C775ACB51D005C1700D22012 /* LaunchScreen.storyboard */; };
+		C775ACC21D005C1700D22012 /* scrollView_keyboard_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C775ACC11D005C1700D22012 /* scrollView_keyboard_testTests.swift */; };
+		C775ACCD1D005C1700D22012 /* scrollView_keyboard_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C775ACCC1D005C1700D22012 /* scrollView_keyboard_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C775ACBE1D005C1700D22012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C775ACA11D005C1700D22012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C775ACA81D005C1700D22012;
+			remoteInfo = scrollView_keyboard_test;
+		};
+		C775ACC91D005C1700D22012 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C775ACA11D005C1700D22012 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C775ACA81D005C1700D22012;
+			remoteInfo = scrollView_keyboard_test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C775ACA91D005C1700D22012 /* scrollView_keyboard_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollView_keyboard_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C775ACAC1D005C1700D22012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C775ACAE1D005C1700D22012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C775ACB11D005C1700D22012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C775ACB31D005C1700D22012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C775ACB61D005C1700D22012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C775ACB81D005C1700D22012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C775ACBD1D005C1700D22012 /* scrollView_keyboard_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollView_keyboard_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C775ACC11D005C1700D22012 /* scrollView_keyboard_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollView_keyboard_testTests.swift; sourceTree = "<group>"; };
+		C775ACC31D005C1700D22012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C775ACC81D005C1700D22012 /* scrollView_keyboard_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollView_keyboard_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C775ACCC1D005C1700D22012 /* scrollView_keyboard_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollView_keyboard_testUITests.swift; sourceTree = "<group>"; };
+		C775ACCE1D005C1700D22012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C775ACA61D005C1700D22012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C775ACBA1D005C1700D22012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C775ACC51D005C1700D22012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C775ACA01D005C1700D22012 = {
+			isa = PBXGroup;
+			children = (
+				C775ACAB1D005C1700D22012 /* scrollView_keyboard_test */,
+				C775ACC01D005C1700D22012 /* scrollView_keyboard_testTests */,
+				C775ACCB1D005C1700D22012 /* scrollView_keyboard_testUITests */,
+				C775ACAA1D005C1700D22012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C775ACAA1D005C1700D22012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C775ACA91D005C1700D22012 /* scrollView_keyboard_test.app */,
+				C775ACBD1D005C1700D22012 /* scrollView_keyboard_testTests.xctest */,
+				C775ACC81D005C1700D22012 /* scrollView_keyboard_testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C775ACAB1D005C1700D22012 /* scrollView_keyboard_test */ = {
+			isa = PBXGroup;
+			children = (
+				C775ACAC1D005C1700D22012 /* AppDelegate.swift */,
+				C775ACAE1D005C1700D22012 /* ViewController.swift */,
+				C775ACB01D005C1700D22012 /* Main.storyboard */,
+				C775ACB31D005C1700D22012 /* Assets.xcassets */,
+				C775ACB51D005C1700D22012 /* LaunchScreen.storyboard */,
+				C775ACB81D005C1700D22012 /* Info.plist */,
+			);
+			path = scrollView_keyboard_test;
+			sourceTree = "<group>";
+		};
+		C775ACC01D005C1700D22012 /* scrollView_keyboard_testTests */ = {
+			isa = PBXGroup;
+			children = (
+				C775ACC11D005C1700D22012 /* scrollView_keyboard_testTests.swift */,
+				C775ACC31D005C1700D22012 /* Info.plist */,
+			);
+			path = scrollView_keyboard_testTests;
+			sourceTree = "<group>";
+		};
+		C775ACCB1D005C1700D22012 /* scrollView_keyboard_testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C775ACCC1D005C1700D22012 /* scrollView_keyboard_testUITests.swift */,
+				C775ACCE1D005C1700D22012 /* Info.plist */,
+			);
+			path = scrollView_keyboard_testUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C775ACA81D005C1700D22012 /* scrollView_keyboard_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C775ACD11D005C1700D22012 /* Build configuration list for PBXNativeTarget "scrollView_keyboard_test" */;
+			buildPhases = (
+				C775ACA51D005C1700D22012 /* Sources */,
+				C775ACA61D005C1700D22012 /* Frameworks */,
+				C775ACA71D005C1700D22012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scrollView_keyboard_test;
+			productName = scrollView_keyboard_test;
+			productReference = C775ACA91D005C1700D22012 /* scrollView_keyboard_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C775ACBC1D005C1700D22012 /* scrollView_keyboard_testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C775ACD41D005C1700D22012 /* Build configuration list for PBXNativeTarget "scrollView_keyboard_testTests" */;
+			buildPhases = (
+				C775ACB91D005C1700D22012 /* Sources */,
+				C775ACBA1D005C1700D22012 /* Frameworks */,
+				C775ACBB1D005C1700D22012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C775ACBF1D005C1700D22012 /* PBXTargetDependency */,
+			);
+			name = scrollView_keyboard_testTests;
+			productName = scrollView_keyboard_testTests;
+			productReference = C775ACBD1D005C1700D22012 /* scrollView_keyboard_testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C775ACC71D005C1700D22012 /* scrollView_keyboard_testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C775ACD71D005C1700D22012 /* Build configuration list for PBXNativeTarget "scrollView_keyboard_testUITests" */;
+			buildPhases = (
+				C775ACC41D005C1700D22012 /* Sources */,
+				C775ACC51D005C1700D22012 /* Frameworks */,
+				C775ACC61D005C1700D22012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C775ACCA1D005C1700D22012 /* PBXTargetDependency */,
+			);
+			name = scrollView_keyboard_testUITests;
+			productName = scrollView_keyboard_testUITests;
+			productReference = C775ACC81D005C1700D22012 /* scrollView_keyboard_testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C775ACA11D005C1700D22012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vijay Weemhoff";
+				TargetAttributes = {
+					C775ACA81D005C1700D22012 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C775ACBC1D005C1700D22012 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C775ACA81D005C1700D22012;
+					};
+					C775ACC71D005C1700D22012 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C775ACA81D005C1700D22012;
+					};
+				};
+			};
+			buildConfigurationList = C775ACA41D005C1700D22012 /* Build configuration list for PBXProject "scrollView_keyboard_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C775ACA01D005C1700D22012;
+			productRefGroup = C775ACAA1D005C1700D22012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C775ACA81D005C1700D22012 /* scrollView_keyboard_test */,
+				C775ACBC1D005C1700D22012 /* scrollView_keyboard_testTests */,
+				C775ACC71D005C1700D22012 /* scrollView_keyboard_testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C775ACA71D005C1700D22012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C775ACB71D005C1700D22012 /* LaunchScreen.storyboard in Resources */,
+				C775ACB41D005C1700D22012 /* Assets.xcassets in Resources */,
+				C775ACB21D005C1700D22012 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C775ACBB1D005C1700D22012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C775ACC61D005C1700D22012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C775ACA51D005C1700D22012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C775ACAF1D005C1700D22012 /* ViewController.swift in Sources */,
+				C775ACAD1D005C1700D22012 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C775ACB91D005C1700D22012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C775ACC21D005C1700D22012 /* scrollView_keyboard_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C775ACC41D005C1700D22012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C775ACCD1D005C1700D22012 /* scrollView_keyboard_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C775ACBF1D005C1700D22012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C775ACA81D005C1700D22012 /* scrollView_keyboard_test */;
+			targetProxy = C775ACBE1D005C1700D22012 /* PBXContainerItemProxy */;
+		};
+		C775ACCA1D005C1700D22012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C775ACA81D005C1700D22012 /* scrollView_keyboard_test */;
+			targetProxy = C775ACC91D005C1700D22012 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C775ACB01D005C1700D22012 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C775ACB11D005C1700D22012 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C775ACB51D005C1700D22012 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C775ACB61D005C1700D22012 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C775ACCF1D005C1700D22012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C775ACD01D005C1700D22012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C775ACD21D005C1700D22012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = scrollView_keyboard_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vijay.scrollView-keyboard-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C775ACD31D005C1700D22012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = scrollView_keyboard_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vijay.scrollView-keyboard-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C775ACD51D005C1700D22012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = scrollView_keyboard_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vijay.scrollView-keyboard-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrollView_keyboard_test.app/scrollView_keyboard_test";
+			};
+			name = Debug;
+		};
+		C775ACD61D005C1700D22012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = scrollView_keyboard_testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vijay.scrollView-keyboard-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scrollView_keyboard_test.app/scrollView_keyboard_test";
+			};
+			name = Release;
+		};
+		C775ACD81D005C1700D22012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = scrollView_keyboard_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vijay.scrollView-keyboard-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = scrollView_keyboard_test;
+			};
+			name = Debug;
+		};
+		C775ACD91D005C1700D22012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = scrollView_keyboard_testUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vijay.scrollView-keyboard-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = scrollView_keyboard_test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C775ACA41D005C1700D22012 /* Build configuration list for PBXProject "scrollView_keyboard_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C775ACCF1D005C1700D22012 /* Debug */,
+				C775ACD01D005C1700D22012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C775ACD11D005C1700D22012 /* Build configuration list for PBXNativeTarget "scrollView_keyboard_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C775ACD21D005C1700D22012 /* Debug */,
+				C775ACD31D005C1700D22012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C775ACD41D005C1700D22012 /* Build configuration list for PBXNativeTarget "scrollView_keyboard_testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C775ACD51D005C1700D22012 /* Debug */,
+				C775ACD61D005C1700D22012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C775ACD71D005C1700D22012 /* Build configuration list for PBXNativeTarget "scrollView_keyboard_testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C775ACD81D005C1700D22012 /* Debug */,
+				C775ACD91D005C1700D22012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C775ACA11D005C1700D22012 /* Project object */;
+}
